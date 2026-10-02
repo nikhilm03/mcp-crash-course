@@ -39,8 +39,7 @@ async def main():
             llm,
             tools,
             prompt=(
-                "You are a helpful AI assistant that answers questions related to weather and calculations using the available MCP tools. "
-                
+                "You are a helpful AI assistant that answers questions related to weather and calculations using the available MCP tools."                
             ),
         )
         result = await agent.ainvoke(
